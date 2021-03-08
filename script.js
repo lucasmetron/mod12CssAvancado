@@ -1,4 +1,38 @@
-let disco = document.getElementById("disco");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let disco = document.getElementById("disco");
 let musica = document.getElementById("musica");
 let number = 0;
 
@@ -21,3 +55,4 @@ setInterval(() => {
    musica.play();
 }, 1);
 
+*/
