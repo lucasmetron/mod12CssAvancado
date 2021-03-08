@@ -1,27 +1,30 @@
-:root{
-    --var-color: rgb(86, 223, 23);
-    --var-color2: yellow;
-    --square-size: 300px;
+.conteiner{
+    display: flex;
+    background-color: grey;
+    height: 400px;
+    color: white;
+    flex-direction:row;
 }
 
-.p1{
-    color: var(--var-color);
-    font-size: 25px;
+.r1{
+    background-color: green;
+    
 }
 
-.p4{
-    color: var(--var-color);
-    font-size: 20px;
+.r2{
+    background-color: yellow;
 }
 
-.quad1{
-    width: var(--square-size);
-    height: var(--square-size);
-    background-color: var(--var-color);
+.r3{
+    background-color: red;
 }
 
-.quad2{
-    width: var(--square-size);
-    height: var(--square-size);
-    background-color: var(--var-color2);
-}
+.rect{
+   
+
+/*
+flex-direction: column;
+flex-direction: row;
+
+
+*/
