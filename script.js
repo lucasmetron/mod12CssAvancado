@@ -1,15 +1,23 @@
-/*let titulos = document.querySelector("[title*=tu]")
-console.log(titulos)
+let disco = document.getElementById("disco");
+let musica = document.getElementById("musica");
+let number = 0;
 
+function music(){
+    let music = document.getElementById("musica");
+    music.innerHTML += '<audio autoplay loop src="./images/Makita cortando cano de ferro_128k.mp3"></audio>'
+}
 
-setTimeout(function(){
-    let i = ""
-    i = i + 1
-    let selecao = document.querySelectorAll("li")
-    selecao[i].setAttribute("style", "color:green;" ) 
-
+function rotation(){
+    number++
+    if(number>360){
+        number = 0;
+    }
     
-    console.log(selecao)
+    disco.setAttribute("style", `transform:rotate(${number}deg)`)
+}
 
-},10)*/
+setInterval(() => {
+   rotation(); 
+   musica.play();
+}, 1);
 
