@@ -1,9 +1,13 @@
 .conteiner{
-    display: flex;
     background-color: grey;
-    height: 400px;
-    color: white;
-    flex-direction:row;
+    height: 500px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    
+
 }
 
 .r1{
@@ -20,8 +24,11 @@
 }
 
 .rect{
-   
+    width: 150px;
+    height: 150px;
+    
 
+}  
 /*
 flex-direction: column;
 flex-direction: row;
