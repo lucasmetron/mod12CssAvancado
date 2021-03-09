@@ -4,16 +4,19 @@
 
 function mudar(){
     let q =document.querySelectorAll(".rect")
+    let bt = document.querySelector(".bt")
 
 
     q[0].style = "order: 0;";
     q[1].style = "order: -1;";
     q[2].style = "order: 1;";
+    bt.style = "order: 3;";
 
     setTimeout(() => {
         q[0].style = "";
         q[1].style = "";
         q[2].style = "";
+        bt.style = "";
     }, 2000);
 }
 

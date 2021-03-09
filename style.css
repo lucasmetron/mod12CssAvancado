@@ -1,6 +1,5 @@
 .conteiner{
-    background-color: grey;
-    height: 500px;
+    background-color: white;
     color: black;
     display: flex;   
 }
@@ -26,6 +25,10 @@
     height: 150px;
 
 }  
+
+.bt{
+    align-self: flex-end;
+}
 /*
 flex-direction: column;
 flex-direction: row;
