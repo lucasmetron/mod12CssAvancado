@@ -2,6 +2,22 @@
 
 
 
+function mudar(){
+    let q =document.querySelectorAll(".rect")
+
+
+    q[0].style = "order: 0;";
+    q[1].style = "order: -1;";
+    q[2].style = "order: 1;";
+
+    setTimeout(() => {
+        q[0].style = "";
+        q[1].style = "";
+        q[2].style = "";
+    }, 2000);
+}
+
+
 
 
 
