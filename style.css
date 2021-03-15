@@ -1,41 +1,31 @@
 .conteiner{
+
     background-color: gray;
-    display: flex;
-    flex-direction: row;  
-    flex-wrap: wrap;
-    align-content: center;
-    height: 400px;
-    
+    padding: 15px;
+    color: white;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: auto auto   ;
+
+    /* grid-template: auto auto auto/ auto auto */
 }
 
 .r1{
-    background-color: green;
-    
+    background-color: red;
 }
 
 .r2{
-    background-color: yellow;
-    
+    background-color: blue;
 }
 
 
 .r3{
-    background-color: red;
-  
+    background-color: green;
 }
 
 .rect{
-    width: 250px;
-    height: 150px;
+    /* width: 250px;
+    height: 150px; */
 
 }  
 
-.bt{
-    align-self: flex-end;
-}
-/*
-flex-direction: column;
-flex-direction: row;
-
-
-*/
