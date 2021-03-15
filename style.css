@@ -4,23 +4,27 @@
     padding: 15px;
     color: white;
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-    grid-template-columns: auto auto   ;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr  ;
 
     /* grid-template: auto auto auto/ auto auto */
 }
 
 .r1{
     background-color: red;
+    margin: 15px ;
 }
 
 .r2{
     background-color: blue;
+    margin: 15px ;
+    
 }
 
 
 .r3{
     background-color: green;
+    margin: 15px ;
 }
 
 .rect{
